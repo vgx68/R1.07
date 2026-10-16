@@ -1,3 +1,7 @@
-somme=0
-while True :
-    n = int(input("Entrez un nombre"))
+a=0
+x=int(input("Entrez un nombre"))
+for i in range(0,x+1) :
+    a=a+i
+    if a==x :
+        print(i)
+        break
