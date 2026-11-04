@@ -1,7 +1,7 @@
 from random import *
 nb=randint(1 , 100)
 print("Le nombre : ",nb)
-valtrq = 2*33
+valtrq = (100/3)*2
 if nb < valtrq :
     print("Le résultat est pile")
 else :
