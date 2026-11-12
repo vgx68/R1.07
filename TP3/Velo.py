@@ -1,7 +1,7 @@
 while True:
     deb = int(input("Entrez une heure de debut de location"))
     fin = int(input("Entrez une heure de fin de location"))
-    if deb <= 0 or deb >= 24 or fin >= 24 or fin <= 0:
+    if deb < 0 or deb > 24 or fin > 24 or fin < 0:
         print("les heures sont comprise entre 0 et 24")
     elif deb == fin :
         print("valeur identique donc impossible")
